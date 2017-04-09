@@ -1,0 +1,64 @@
+/* Main blocks */
+
+body {
+    font-family: Roboto, sans-serif;
+}
+
+header {
+    padding: 20px;
+    color: #636363;
+}
+
+header nav {
+    float: right;
+}
+
+header nav a {
+    font-size: 17px;
+    float: left;
+    margin-left: 35px;
+    color: #636363;
+    text-decoration: none;
+}
+
+header span {
+    font-size: 25px;
+}
+
+header img {
+    height: 35px;
+    width: auto;
+    margin-top: 7.5px;
+}
+
+.main-container {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.fab {
+    background-color: #f8e200;
+    position: fixed;
+    bottom: 5.5%;
+    right: 200px;
+}
+
+/* Sections */
+
+.section {
+    font-weight: 200;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.section.dark {
+    color: white;
+}
+
+/* Colors */
+
+.color-primary {
+    background-color: #E47D6D;
+}
+
